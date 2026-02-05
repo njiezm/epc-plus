@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+:root {
+    --primary-blue: #1e3a8a;
+    --accent-orange: #f97316;
+    --bg-light: #f8fafc;
+    --tropical-green: #10b981;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    color: #1e293b;
+}
+
+.logo-text {
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.btn-primary {
+    background-color: var(--accent-orange);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.4);
+}
+
+.card-shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.card-shadow:hover {
+    border-color: var(--accent-orange);
+    transform: scale(1.02);
+}
+
+.tropical-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 50C60 40 70 30 80 20C90 10 100 0 100 0C100 0 90 10 80 20C70 30 60 40 50 50Z' fill='%2310b981' fill-opacity='0.05'/%3E%3C/svg%3E");
+}
