@@ -43,7 +43,7 @@
         <div>
             <h2 class="text-2xl font-bold text-blue-900 mb-4">Cookies</h2>
             <div class="bg-white p-6 rounded-xl card-shadow">
-                <p>Le site epc-plus.com peut être amené à vous demander l'acceptation des cookies pour des besoins de statistiques et d'affichage. Un cookie est un fichier déposé sur votre ordinateur permettant de reconnaître votre navigateur lors de vos visites.</p>
+                <p>Le site epc-plus.fr peut être amené à vous demander l'acceptation des cookies pour des besoins de statistiques et d'affichage. Un cookie est un fichier déposé sur votre ordinateur permettant de reconnaître votre navigateur lors de vos visites.</p>
                 <p class="mt-4">Vous avez la possibilité de désactiver les cookies depuis les paramètres de votre navigateur.</p>
             </div>
         </div>

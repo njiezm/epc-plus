@@ -71,7 +71,7 @@
                     <li><strong>Droit de portabilité :</strong> recevoir vos données dans un format lisible</li>
                     <li><strong>Droit d'opposition :</strong> vous opposer au traitement de vos données</li>
                 </ul>
-                <p class="mt-4">Pour exercer ces droits, contactez-nous à l'adresse : contact@epc-plus.com</p>
+                <p class="mt-4">Pour exercer ces droits, contactez-nous à l'adresse : contact@epc-plus.fr</p>
             </div>
         </div>
 
@@ -86,7 +86,7 @@
             <h2 class="text-2xl font-bold text-blue-900 mb-4">7. Contact</h2>
             <div class="bg-white p-6 rounded-xl card-shadow">
                 <p>Pour toute question concernant cette politique de confidentialité, vous pouvez nous contacter :</p>
-                <p class="mt-4">Par email : <a href="mailto:contact@epc-plus.com" class="text-orange-500">contact@epc-plus.com</a><br>
+                <p class="mt-4">Par email : <a href="mailto:contact@epc-plus.fr" class="text-orange-500">contact@epc-plus.fr</a><br>
                 Par téléphone : <a href="tel:0696600155" class="text-orange-500">0696 60 01 55</a></p>
             </div>
         </div>

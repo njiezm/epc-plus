@@ -16,7 +16,7 @@ class NewsletterController extends Controller
 
         try {
             // Envoyer une notification à l'administrateur
-            Mail::to('contact@epc-plus.com')->send(new NewsletterSubscriptionMail($validated['email']));
+            Mail::to('contact@epc-plus.fr')->send(new NewsletterSubscriptionMail($validated['email']));
             
             return redirect()->back()->with('newsletter_success', 'Vous êtes bien inscrit à notre newsletter !');
         } catch (\Exception $e) {

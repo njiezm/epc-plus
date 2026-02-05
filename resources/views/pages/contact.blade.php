@@ -25,7 +25,7 @@
                 </div>
                 <div>
                     <p class="text-xs font-bold text-slate-400 uppercase tracking-widest">Email</p>
-                    <p class="text-xl font-bold text-blue-900">contact@epc-plus.com</p>
+                    <p class="text-xl font-bold text-blue-900">contact@epc-plus.fr</p>
                     <p class="text-xs text-slate-500">Réponse sous 24h</p>
                 </div>
             </div>

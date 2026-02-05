@@ -43,7 +43,7 @@
         </div>
         
         <div class="footer">
-            <p>EPC+ - Pôle Bati Pro Plus | 0696 60 01 55 | contact@epc-plus.com</p>
+            <p>EPC+ - Pôle Bati Pro Plus | 0696 60 01 55 | contact@epc-plus.fr</p>
             <p>Si vous n'êtes pas à l'origine de cette demande, veuillez nous contacter.</p>
         </div>
     </div>

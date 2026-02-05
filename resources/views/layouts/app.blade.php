@@ -79,7 +79,7 @@
                     <h4 class="font-bold mb-6 uppercase text-xs tracking-widest text-orange-500">Contact Rapide</h4>
                     <ul class="space-y-4 text-sm">
                         <li><i class="fas fa-phone mr-3 text-slate-500"></i> 0696 60 01 55</li>
-                        <li><i class="fas fa-envelope mr-3 text-slate-500"></i> contact@epc-plus.com</li>
+                        <li><i class="fas fa-envelope mr-3 text-slate-500"></i> contact@epc-plus.fr</li>
                         <li><i class="fas fa-map-marker-alt mr-3 text-slate-500"></i> Martinique / Guadeloupe / Guyane</li>
                     </ul>
                 </div>
