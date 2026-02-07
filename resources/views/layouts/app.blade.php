@@ -26,6 +26,7 @@
                     </div>
                 </div>
                 
+                <!-- Menu desktop -->
                 <div class="hidden md:flex items-center gap-8">
                     <a href="{{ route('home') }}" class="text-sm font-semibold hover:text-orange-500 transition-colors {{ request()->routeIs('home') ? 'text-orange-500' : '' }}">ACCUEIL</a>
                     <a href="{{ route('services') }}" class="text-sm font-semibold hover:text-orange-500 transition-colors {{ request()->routeIs('services') ? 'text-orange-500' : '' }}">NOS PRESTATIONS</a>
@@ -39,6 +40,30 @@
                         DEVIS GRATUIT
                     </a>
                 </div>
+                
+                <!-- Bouton menu mobile -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-blue-900 hover:text-orange-500 focus:outline-none p-2">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Menu mobile (caché par défaut) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-200">
+            <div class="px-4 py-3 space-y-3">
+                <a href="{{ route('home') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('home') ? 'text-orange-500' : '' }}">ACCUEIL</a>
+                <a href="{{ route('services') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('services') ? 'text-orange-500' : '' }}">NOS PRESTATIONS</a>
+                <a href="{{ route('gallery') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('gallery') ? 'text-orange-500' : '' }}">RÉALISATIONS</a>
+                <a href="{{ route('faq') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('faq') ? 'text-orange-500' : '' }}">FAQ</a>
+                <a href="{{ route('about') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('about') ? 'text-orange-500' : '' }}">POURQUOI NOUS ?</a>
+                <a href="tel:0696600155" class="flex items-center py-2 text-base font-medium hover:text-orange-500 transition-colors">
+                    <i class="fas fa-phone-alt mr-2"></i> 0696 60 01 55
+                </a>
+                <a href="{{ route('contact') }}" class="block w-full text-center bg-orange-500 text-white py-3 rounded-lg font-bold mt-4 hover:bg-orange-600 transition-colors">
+                    DEVIS GRATUIT
+                </a>
             </div>
         </div>
     </nav>
@@ -112,7 +137,7 @@
                 </div>
             </div>
             <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 uppercase tracking-tighter">
-                <p>© 2023 EPC + — TOUS DROITS RÉSERVÉS</p>
+                <p>© 2026 EPC + — TOUS DROITS RÉSERVÉS</p>
                 <div class="flex gap-6">
                     <a href="{{ route('legal') }}" class="hover:text-white">Mentions Légales</a>
                     <a href="{{ route('privacy') }}" class="hover:text-white">Politique de confidentialité</a>
@@ -121,6 +146,39 @@
             </div>
         </div>
     </footer>
+
+    <!-- Script pour gérer le menu mobile -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+                
+                // Changer l'icône du bouton
+                const icon = this.querySelector('i');
+                if (mobileMenu.classList.contains('hidden')) {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                } else {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                }
+            });
+            
+            // Fermer le menu en cliquant sur un lien
+            const mobileLinks = mobileMenu.querySelectorAll('a');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.add('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                });
+            });
+        });
+    </script>
 
     @stack('scripts')
 </body>

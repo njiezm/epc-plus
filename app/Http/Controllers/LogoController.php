@@ -22,7 +22,7 @@ class LogoController extends Controller
     {
         $password = $request->input('password');
         
-        if ($password === 'EPC2023!') {
+        if ($password === 'EPC2026!') {
             session(['logo_access' => true]);
             return redirect()->route('logo.downloader');
         }
