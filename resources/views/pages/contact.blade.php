@@ -104,6 +104,7 @@
                     <option>Extension de maison</option>
                     <option>Piscine / Abri de jardin</option>
                     <option>Aménagement intérieur</option>
+                    <option>Demande de partenariat</option>
                     <option>Autre</option>
                 </select>
                 @error('project_type')

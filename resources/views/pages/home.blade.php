@@ -39,7 +39,7 @@
         </div>
         <div class="flex items-center gap-4">
             <i class="fas fa-university text-orange-500 text-3xl"></i>
-            <div><h4 class="font-bold text-sm">Suivi Mairie</h4><p class="text-xs text-slate-500">Interlocuteur Unique</p></div>
+            <div><h4 class="font-bold text-sm">Suivi</h4><p class="text-xs text-slate-500">Interlocuteur Unique</p></div>
         </div>
         <div class="flex items-center gap-4">
             <i class="fas fa-hard-hat text-orange-500 text-3xl"></i>
@@ -57,12 +57,12 @@
         <div class="bg-white p-8 card-shadow rounded-2xl">
             <div class="step-number mb-6">1</div>
             <h3 class="font-bold mb-4">Étude de faisabilité</h3>
-            <p class="text-sm text-slate-500">Analyse complète de votre PLU et compte rendu détaillé avant de lancer les frais.</p>
+            <p class="text-sm text-slate-500">Analyse complète préalable de votre projet et compte rendu détaillé avant de vous lancer.</p>
         </div>
         <div class="bg-white p-8 card-shadow rounded-2xl">
             <div class="step-number mb-6">2</div>
             <h3 class="font-bold mb-4">Constitution complète</h3>
-            <p class="text-sm text-slate-500">Rédaction de tous les Cerfa et réalisation de l'ensemble des pièces graphiques.</p>
+            <p class="text-sm text-slate-500">Rédaction de tous les DP et Cerfa et réalisation de l'ensemble des plans graphiques.</p>
         </div>
         <div class="bg-white p-8 card-shadow rounded-2xl">
             <div class="step-number mb-6">3</div>
@@ -124,7 +124,7 @@
                     <img src="https://picsum.photos/seed/client3/60/60.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
                     <div>
                         <h4 class="font-bold">Sophie D.</h4>
-                        <p class="text-xs text-slate-500">Cayenne, Guyane</p>
+                        <p class="text-xs text-slate-500">Le Lamentin, Martnique</p>
                     </div>
                 </div>
                 <p class="text-sm text-slate-600 italic">"Les rendus 3D étaient magnifiques et ont vraiment aidé à visualiser mon projet. Le suivi a été parfait du début à la fin. Service 5 étoiles !"</p>

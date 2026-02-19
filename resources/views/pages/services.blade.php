@@ -35,6 +35,7 @@
             <div class="bg-slate-50 p-6 rounded-xl">
                 <h4 class="font-bold text-blue-900 mb-4 uppercase text-xs">Le + Service Inclus :</h4>
                 <ul class="text-sm space-y-2">
+                    <li>• Certificats d'urbanisme (information ou opérationnel)</li>
                     <li>• Déplacements sur site (relevé & photos)</li>
                     <li>• Dépôt en mairie par nos soins</li>
                     <li>• Suivi et réponses aux demandes</li>
@@ -67,6 +68,10 @@
                         <span>Études réglementaires (Sol, etc.)</span>
                         <i class="fas fa-plus"></i>
                     </li>
+                    <li class="flex justify-between border-b border-white/10 pb-2">
+                        <span>Reprise du dossier de PC établi par vos soins</span>
+                        <i class="fas fa-plus"></i>
+                    </li>
                 </ul>
             </div>
             <div class="bg-orange-100 border border-orange-200 p-8 rounded-3xl">
@@ -84,9 +89,9 @@
             <div class="bg-white p-8 rounded-3xl card-shadow">
                 <h3 class="text-xl font-bold mb-4 text-blue-900">Notre zone d'intervention</h3>
                 <div class="bg-slate-100 rounded-xl p-4 mb-4">
-                    <img src="https://picsum.photos/seed/antilles-map/600/300.jpg" alt="Carte des Antilles" class="w-full rounded-lg">
+                    <img src="https://blog.locations-vue-turquoise.com/wp-content/uploads/2020/11/MARTINIQUE-GUADELOUPE-CARTE.jpg" alt="Carte des Antilles" class="w-full rounded-lg">
                 </div>
-                <div class="grid grid-cols-3 gap-4 text-center">
+                <div class="grid grid-cols-2 gap-4 text-center">
                     <div>
                         <i class="fas fa-map-marker-alt text-orange-500 text-2xl mb-2"></i>
                         <p class="font-bold text-sm">Martinique</p>
@@ -95,10 +100,10 @@
                         <i class="fas fa-map-marker-alt text-orange-500 text-2xl mb-2"></i>
                         <p class="font-bold text-sm">Guadeloupe</p>
                     </div>
-                    <div>
+                    <!--div>
                         <i class="fas fa-map-marker-alt text-orange-500 text-2xl mb-2"></i>
                         <p class="font-bold text-sm">Guyane</p>
-                    </div>
+                    </!--div-->
                 </div>
             </div>
         </div>

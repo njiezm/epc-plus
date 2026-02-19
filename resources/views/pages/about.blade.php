@@ -8,12 +8,16 @@
         <div>
             <h2 class="text-4xl font-extrabold text-blue-900 mb-6">À propos d'<span class="text-orange-500">EPC+</span></h2>
             <p class="text-slate-600 mb-6">
-                EPC+ est le pôle spécialisé en urbanisme du groupe BATI PRO PLUS. Depuis notre création, nous nous sommes concentrés sur une mission : simplifier les démarches administratives de construction pour les particuliers et professionnels aux Antilles.
+                EPC+ est le pôle spécialisé dans le montage et l'accompagnement des dossiers d'urbanisme du groupe BATI PRO PLUS. Nous nous concentrons sur une mission : simplifier les démarches administratives de construction pour les particuliers et professionnels aux Antilles.
             </p>
             <p class="text-slate-600 mb-6">
-                Notre équipe d'experts connaît parfaitement les spécificités réglementaires de la Martinique, la Guadeloupe et la Guyane. Nous maîtrisons les Plans Locaux d'Urbanisme (PLU) et les contraintes propres à chaque territoire pour garantir le succès de votre projet.
+                Notre équipe d'experts connaît les spécificités réglementaires de la Martinique et de la Guadeloupe, pas la maîtrise des Plans Locaux d'Urbanisme (PLU) et des contraintes propres à chaque territoire pour garantir le succès de votre projet.
             </p>
-            <div class="grid grid-cols-2 gap-6 mb-8">
+
+             <p class="text-slate-600 mb-6">
+                <strong>Notre objectif : 100% de clients satisfaits, de projets réalisés. </strong>
+            </p>
+            <!--div class="grid grid-cols-2 gap-6 mb-8">
                 <div>
                     <p class="text-3xl font-bold text-orange-500">300+</p>
                     <p class="text-sm text-slate-500">Projets réalisés</p>
@@ -22,13 +26,36 @@
                     <p class="text-3xl font-bold text-orange-500">98%</p>
                     <p class="text-sm text-slate-500">Taux de réussite</p>
                 </div>
-            </div>
+            </!--div-->
             <a href="{{ route('contact') }}" class="btn-primary text-white px-6 py-3 rounded-xl font-bold">
                 Notre équipe
             </a>
+           
+             <ul class="space-y-4 text-sm mt-6">
+                    <li class="flex justify-between border-b border-white/10 pb-2">
+                        <span>Des techniciens, véritables experts de terrain en urbanisme</span>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                    <li class="flex justify-between border-b border-white/10 pb-2">
+                        <span>Des dessinateurs, pour formaliser votre projet</span>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                    <li class="flex justify-between border-b border-white/10 pb-2">
+                        <span>Des experts du BTP pour s'assurer de la réalité technique de vos projets</span>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                    <li class="flex justify-between border-b border-white/10 pb-2">
+                        <span>Des gestionnaires pour le montage et le suivi de votre dossier</span>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                    <li class="flex justify-between border-b border-white/10 pb-2">
+                        <span>Un solide réseau (bureau d'études & architectes)</span>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                </ul>
         </div>
         <div>
-            <img src="https://picsum.photos/seed/team/600/400.jpg" alt="Notre équipe" class="rounded-2xl shadow-xl">
+            <img src="https://static.vousfinancer.com/medias/actualites/AdobeStock_5757586.jpeg" alt="Notre équipe" class="rounded-2xl shadow-xl">
         </div>
     </div>
 
@@ -76,14 +103,19 @@
                 <p class="text-slate-600 mb-6">
                     Vous êtes architecte, constructeur, artisan ou professionnel de l'immobilier aux Antilles ? Rejoignez notre réseau pour collaborer sur des projets passionnants.
                 </p>
-                <button class="btn-primary text-white px-6 py-3 rounded-xl font-bold">
+
+                <a href="{{ route('contact') }}" class="btn-primary text-white px-6 py-3 rounded-xl font-bold">
+                Devenir partenaire
+            </a>
+
+                <!--button class="btn-primary text-white px-6 py-3 rounded-xl font-bold">
                     Devenir partenaire
-                </button>
+                </!--button-->
             </div>
             <div class="grid grid-cols-3 gap-4">
-                <img src="https://picsum.photos/seed/partner1/150/150.jpg" alt="Partenaire" class="rounded-lg">
-                <img src="https://picsum.photos/seed/partner2/150/150.jpg" alt="Partenaire" class="rounded-lg">
-                <img src="https://picsum.photos/seed/partner3/150/150.jpg" alt="Partenaire" class="rounded-lg">
+                <img src="https://www.signaletique-express.fr/5334-large_default/panneau-permis-de-construire-personnalisable.jpg" alt="Partenaire" class="rounded-lg">
+                <img src="https://www.interaction-interim.com/sites/default/files/styles/large/public/2022-01/chauffeur-2-carr%C3%A9%20copy%202.png?itok=6lDbtVY8" alt="Partenaire" class="rounded-lg">
+                <img src="https://www.arteva.fr/wp-content/uploads/2024/08/arteva-devenir-partenaires-1024x1024-1.png" alt="Partenaire" class="rounded-lg">
             </div>
         </div>
     </div>

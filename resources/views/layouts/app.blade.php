@@ -79,7 +79,7 @@
                 <div>
                     <span class="logo-text text-3xl">EPC <span class="text-orange-500">+</span></span>
                     <p class="mt-4 text-slate-400 text-sm leading-relaxed">
-                        Votre expert en urbanisme aux Antilles. Nous concrétisons vos projets de construction en expériences fluides et sans stress.
+                        Votre expert aux Antilles. Nous concrétisons vos projets de construction en une expérience fluide et sans stress.
                     </p>
                     <div class="flex gap-4 mt-6">
                         <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors">
@@ -107,7 +107,7 @@
                     <ul class="space-y-4 text-sm">
                         <li><i class="fas fa-phone mr-3 text-slate-500"></i> 0696 60 01 55</li>
                         <li><i class="fas fa-envelope mr-3 text-slate-500"></i> contact@epc-plus.fr</li>
-                        <li><i class="fas fa-map-marker-alt mr-3 text-slate-500"></i> Martinique / Guadeloupe / Guyane</li>
+                        <li><i class="fas fa-map-marker-alt mr-3 text-slate-500"></i> Martinique / Guadeloupe</li>
                     </ul>
                 </div>
                 <div>
