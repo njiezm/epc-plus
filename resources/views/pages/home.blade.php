@@ -199,7 +199,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: url('https://picsum.photos/seed/antilles-beach/1920/1080.jpg') center/cover;
+        background: url('https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg') center/cover;
         opacity: 0.2;
         z-index: 0;
     }
