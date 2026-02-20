@@ -81,6 +81,9 @@
                     <p class="mt-4 text-slate-400 text-sm leading-relaxed">
                         Votre expert aux Antilles. Nous concrétisons vos projets de construction en une expérience fluide et sans stress.
                     </p>
+                    <p class="mt-4 text-slate-400 text-sm leading-relaxed">
+                        Siret BTP + : 929 982 213 00019
+                    </p>
                     <div class="flex gap-4 mt-6">
                         <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors">
                             <i class="fab fa-facebook-f"></i>

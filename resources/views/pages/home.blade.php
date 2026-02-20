@@ -35,7 +35,7 @@
         </div>
         <div class="flex items-center gap-4">
             <i class="fas fa-file-signature text-orange-500 text-3xl"></i>
-            <div><h4 class="font-bold text-sm">Dossier Complet</h4><p class="text-xs text-slate-500">De la DP1 à la DP11</p></div>
+            <div><h4 class="font-bold text-sm">Dossier Complet</h4><p class="text-xs text-slate-500">PCMI 1 à PCMI 8</p></div>
         </div>
         <div class="flex items-center gap-4">
             <i class="fas fa-university text-orange-500 text-3xl"></i>
@@ -62,7 +62,7 @@
         <div class="bg-white p-8 card-shadow rounded-2xl">
             <div class="step-number mb-6">2</div>
             <h3 class="font-bold mb-4">Constitution complète</h3>
-            <p class="text-sm text-slate-500">Rédaction de tous les DP et Cerfa et réalisation de l'ensemble des plans graphiques.</p>
+            <p class="text-sm text-slate-500">Rédaction de tous les PCMI, et attestation et réalisation de l'ensemble des plans graphiques.</p>
         </div>
         <div class="bg-white p-8 card-shadow rounded-2xl">
             <div class="step-number mb-6">3</div>
@@ -199,7 +199,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: url('https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg') center/cover;
+        background: url('images/home.jpg') center/cover;
         opacity: 0.2;
         z-index: 0;
     }
