@@ -18,18 +18,19 @@
             <div class="grid md:grid-cols-2 gap-4 mb-8">
                 <ul class="space-y-3 text-sm">
                     <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> <b>Vérification PLU & PPRN</b></li>
-                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> DP1 : Plans de situation</li>
-                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> DP2 : Plans de masse</li>
-                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> DP3 : Plans de coupes</li>
-                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> DP4 : Plans façade & toiture</li>
-                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> DP5 : Vue en 3D</li>
+                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> PCMI1 : Plans de situation</li>
+                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> PCMI2 : Plans de masse</li>
+                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> PCMI3 : Plans de coupes</li>
+                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> PCMI4 : Notice Architechturale</li>
+                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> PCMI5 : Plans de façades et de toiture</li>
                 </ul>
                 <ul class="space-y-3 text-sm">
-                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> DP6 : Insertion Paysagère</li>
-                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> DP7/DP8 : Vues de près/loin</li>
-                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> DP11 : Notice Architecturale</li>
+                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> PCMI6 : Documents Graphiques</li>
+                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> PCMI7/PCMI8 : Photographies</li>
                     <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> Annexe : Plans de niveau</li>
                     <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> <b>Cerfa complet</b></li>
+                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> <b>Attestation RE2020 (Déport PC)</b></li>
+                    <li class="flex items-start gap-2"><i class="fas fa-check text-green-500 mt-1"></i> <b>Dépot du dossier en mairie</b></li>
                 </ul>
             </div>
             <div class="bg-slate-50 p-6 rounded-xl">
@@ -46,6 +47,37 @@
                 <p class="text-3xl font-bold text-blue-900">À partir de <span class="text-orange-500">990€ TTC</span></p>
                 <p class="text-xs text-slate-500 mt-2">Tarif pour une maison individuelle < 150m²</p>
             </div>
+            <div class="mt-10 bg-blue-50 border border-blue-100 p-6 rounded-2xl text-center">
+    <h4 class="text-lg font-bold text-blue-900 mb-2">
+        Un accompagnement clé en main
+    </h4>
+    <p class="text-sm text-slate-600 mb-4 max-w-md mx-auto">
+        Découvrez comment EPC + transforme la démarche “paperasse” de votre
+projet en une expérience zen.  
+Fini les tracas: nous prenons en charge l'intégralité de votre permis de
+construire, le dépôt en mairie et le suivi.
+    </p>
+    <p class="text-sm text-slate-600 mb-4 max-w-md mx-auto">
+
+    Et ce n'est pas tout : si la mairie demande des pièces complémentaires ou
+une modification, nous reprenons votre dossier gratuitement, sans frais
+supplémentaires.
+ </p>
+    <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="{{ route('contact') }}" 
+           class="btn-primary text-white px-6 py-3 rounded-xl font-semibold text-sm">
+            Demander un devis gratuit
+        </a>
+        <a href="tel:+590XXXXXXXXX" 
+           class="bg-white border border-blue-200 text-blue-900 px-6 py-3 rounded-xl font-semibold text-sm hover:bg-blue-100 transition">
+            Être rappelé
+        </a>
+    </div>
+
+    <p class="text-xs text-slate-400 mt-4">
+        Réponse sous rapide • Étude personnalisée • Sans engagement
+    </p>
+</div>
         </div>
 
         <div class="space-y-6">
@@ -155,4 +187,4 @@
         background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 50C60 40 70 30 80 20C90 10 100 0 100 0C100 0 90 10 80 20C70 30 60 40 50 50Z' fill='%2310b981' fill-opacity='0.05'/%3E%3C/svg%3E");
     }
 </style>
-@endpush
+@enPCMIush
