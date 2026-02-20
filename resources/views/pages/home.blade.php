@@ -187,7 +187,7 @@
     }
 
     .hero-gradient {
-        background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        background: linear-gradient(135deg, #1e3a8a 80%, #3b82f6 100%);
         position: relative;
         overflow: hidden;
     }
