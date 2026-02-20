@@ -47,7 +47,7 @@
                 <p class="text-3xl font-bold text-blue-900">À partir de <span class="text-orange-500">990€ TTC</span></p>
                 <p class="text-xs text-slate-500 mt-2">Tarif pour une maison individuelle < 150m²</p>
             </div>
-            <div class="mt-10 bg-blue-50 border border-blue-100 p-6 rounded-2xl text-center">
+            <div class="mt-7 bg-blue-50 border border-blue-100 p-6 rounded-2xl text-center">
     <h4 class="text-lg font-bold text-blue-900 mb-2">
         Un accompagnement clé en main
     </h4>
