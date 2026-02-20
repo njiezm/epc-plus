@@ -199,7 +199,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: url('images/home2.jpeg') center/cover;
+        background: url('images/home1.png') center/cover;
         opacity: 0.2;
         z-index: 0;
     }
