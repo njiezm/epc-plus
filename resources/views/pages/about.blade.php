@@ -114,8 +114,8 @@
             </div>
             <div class="grid grid-cols-3 gap-4">
                 <img src="https://www.signaletique-express.fr/5334-large_default/panneau-permis-de-construire-personnalisable.jpg" alt="Partenaire" class="rounded-lg">
-                <img src="https://www.interaction-interim.com/sites/default/files/styles/large/public/2022-01/chauffeur-2-carr%C3%A9%20copy%202.png?itok=6lDbtVY8" alt="Partenaire" class="rounded-lg">
-                <img src="https://www.arteva.fr/wp-content/uploads/2024/08/arteva-devenir-partenaires-1024x1024-1.png" alt="Partenaire" class="rounded-lg">
+                <img src="{{ asset('images/part.jpg') }}" alt="Partenaire" class="rounded-lg">
+                <img src="{{ asset('images/134.jpg') }}" alt="Partenaire" class="rounded-lg">
             </div>
         </div>
     </div>

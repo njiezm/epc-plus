@@ -16,6 +16,7 @@ Route::get('/services', [PagesController::class, 'services'])->name('services');
 Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
 Route::get('/faq', [PagesController::class, 'faq'])->name('faq');
 Route::get('/about', [PagesController::class, 'about'])->name('about');
+Route::get('/demarches', [PagesController::class, 'process'])->name('process');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::post('/contact', [PagesController::class, 'submitContact'])->name('contact.submit');
 

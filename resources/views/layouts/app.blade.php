@@ -30,7 +30,8 @@
                 <div class="hidden md:flex items-center gap-8">
                     <a href="{{ route('home') }}" class="text-sm font-semibold hover:text-orange-500 transition-colors {{ request()->routeIs('home') ? 'text-orange-500' : '' }}">ACCUEIL</a>
                     <a href="{{ route('services') }}" class="text-sm font-semibold hover:text-orange-500 transition-colors {{ request()->routeIs('services') ? 'text-orange-500' : '' }}">NOS PRESTATIONS</a>
-                    <a href="{{ route('gallery') }}" class="text-sm font-semibold hover:text-orange-500 transition-colors {{ request()->routeIs('gallery') ? 'text-orange-500' : '' }}">RÉALISATIONS</a>
+                    <a href="{{ route('process') }}" class="text-sm font-semibold hover:text-orange-500 transition-colors {{ request()->routeIs('process') ? 'text-orange-500' : '' }}">NOTRE DEMARCHE</a>
+                    <!--a href="{{ route('gallery') }}" class="text-sm font-semibold hover:text-orange-500 transition-colors {{ request()->routeIs('gallery') ? 'text-orange-500' : '' }}">RÉALISATIONS</!--a-->
                     <a href="{{ route('faq') }}" class="text-sm font-semibold hover:text-orange-500 transition-colors {{ request()->routeIs('faq') ? 'text-orange-500' : '' }}">FAQ</a>
                     <a href="{{ route('about') }}" class="text-sm font-semibold hover:text-orange-500 transition-colors {{ request()->routeIs('about') ? 'text-orange-500' : '' }}">POURQUOI NOUS ?</a>
                     <a href="tel:0696600155" class="bg-blue-50 text-blue-900 px-4 py-2 rounded-full text-sm font-bold border border-blue-100">
@@ -55,7 +56,8 @@
             <div class="px-4 py-3 space-y-3">
                 <a href="{{ route('home') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('home') ? 'text-orange-500' : '' }}">ACCUEIL</a>
                 <a href="{{ route('services') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('services') ? 'text-orange-500' : '' }}">NOS PRESTATIONS</a>
-                <a href="{{ route('gallery') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('gallery') ? 'text-orange-500' : '' }}">RÉALISATIONS</a>
+                <a href="{{ route('process') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('process') ? 'text-orange-500' : '' }}">NOTRE DÉMARCHE</a>
+                <!--a href="{{ route('gallery') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('gallery') ? 'text-orange-500' : '' }}">RÉALISATIONS</!--a-->
                 <a href="{{ route('faq') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('faq') ? 'text-orange-500' : '' }}">FAQ</a>
                 <a href="{{ route('about') }}" class="block py-2 text-base font-medium hover:text-orange-500 transition-colors {{ request()->routeIs('about') ? 'text-orange-500' : '' }}">POURQUOI NOUS ?</a>
                 <a href="tel:0696600155" class="flex items-center py-2 text-base font-medium hover:text-orange-500 transition-colors">

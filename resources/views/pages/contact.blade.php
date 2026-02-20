@@ -35,7 +35,7 @@
                 </div>
                 <div>
                     <p class="text-xs font-bold text-slate-400 uppercase tracking-widest">Nos agences</p>
-                    <p class="text-xl font-bold text-blue-900">Martinique / Guadeloupe / Guyane</p>
+                    <p class="text-xl font-bold text-blue-900">Martinique / Guadeloupe</p>
                     <p class="text-xs text-slate-500">RDV sur site possible</p>
                 </div>
             </div>
